@@ -1,0 +1,13 @@
+@import "../../../styles/variables.scss";
+
+.layout {
+    padding: 1em;
+    height: 100vh;
+}
+
+
+@media (min-width: $minDesktopWidth) {
+  .layout {
+    padding: 4em 8em;
+  }
+}
